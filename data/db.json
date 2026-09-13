@@ -1,0 +1,177 @@
+{
+  "leads": [
+    {
+      "id": "lead-1",
+      "name": "Priya Sharma",
+      "title": "VP of Sales",
+      "company": "Acme Technologies",
+      "email": "priya.sharma@acme.example",
+      "phone": "+1 415 555 0182",
+      "source": "Inbound demo",
+      "deal": {
+        "name": "Enterprise CRM Platform",
+        "value": 45000,
+        "stage": "Proposal"
+      },
+      "notes": [
+        "Acme wants better visibility across regional sales teams."
+      ],
+      "activities": [
+        {
+          "type": "Call",
+          "title": "Discovery call completed",
+          "description": "Discussed sales visibility and reporting needs.",
+          "createdAt": "2026-08-30T11:00:00Z"
+        },
+        {
+          "type": "Email",
+          "title": "Pricing requested",
+          "description": "Customer requested enterprise pricing.",
+          "createdAt": "2026-09-02T14:00:00Z"
+        },
+        {
+          "type": "Email",
+          "title": "Proposal sent",
+          "description": "Sent proposal with implementation options.",
+          "createdAt": "2026-09-05T09:00:00Z"
+        },
+        {
+          "type": "Call",
+          "title": "Pricing",
+          "description": "Discussed",
+          "createdAt": "2026-09-13T14:10:38.544Z"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t1",
+          "title": "Call Priya regarding proposal",
+          "dueDate": "2026-09-10",
+          "completed": false
+        },
+        {
+          "title": "Call priya",
+          "dueDate": "2026-09-12",
+          "id": "task-1789308699860-j60wg",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "lead-2",
+      "name": "Rahul Mehta",
+      "title": "CTO",
+      "company": "Nova Systems",
+      "email": "rahul@nova.example",
+      "phone": "+1 646 555 0124",
+      "source": "Referral",
+      "deal": {
+        "name": "Sales Intelligence Pilot",
+        "value": 28000,
+        "stage": "Qualified"
+      },
+      "notes": [
+        "Technical evaluation is the next milestone."
+      ],
+      "activities": [
+        {
+          "type": "Meeting",
+          "title": "Technical discovery",
+          "description": "Reviewed integration requirements and data access.",
+          "createdAt": "2026-09-01T15:00:00Z"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t2",
+          "title": "Send API integration checklist",
+          "dueDate": "2026-09-09",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "lead-3",
+      "name": "Ananya Rao",
+      "title": "Head of Growth",
+      "company": "BrightLabs",
+      "email": "ananya@brightlabs.example",
+      "phone": "+1 212 555 0198",
+      "source": "Conference",
+      "deal": {
+        "name": "Revenue Operations Suite",
+        "value": 62000,
+        "stage": "Negotiation"
+      },
+      "notes": [
+        "Strong interest in automated sales coaching."
+      ],
+      "activities": [
+        {
+          "type": "Demo",
+          "title": "Product demo",
+          "description": "Demoed conversation intelligence and coaching workflow.",
+          "createdAt": "2026-09-03T16:00:00Z"
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "lead-4",
+      "name": "Vikram Patel",
+      "title": "Sales Director",
+      "company": "Orbit Retail",
+      "email": "vikram@orbit.example",
+      "phone": "+1 312 555 0177",
+      "source": "Website",
+      "deal": {
+        "name": "Retail Sales Analytics",
+        "value": 19000,
+        "stage": "New"
+      },
+      "notes": [],
+      "activities": [
+        {
+          "type": "Email",
+          "title": "Initial inquiry",
+          "description": "Asked for a short overview of capabilities.",
+          "createdAt": "2026-09-04T10:00:00Z"
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "lead-5",
+      "name": "Meera Iyer",
+      "title": "COO",
+      "company": "ScaleWorks",
+      "email": "meera@scale.example",
+      "phone": "+1 206 555 0144",
+      "source": "Partner",
+      "deal": {
+        "name": "Sales Operations Modernization",
+        "value": 76000,
+        "stage": "Won"
+      },
+      "notes": [
+        "Executive sponsor is aligned; implementation planning remains."
+      ],
+      "activities": [
+        {
+          "type": "Meeting",
+          "title": "Executive review",
+          "description": "Commercial terms approved.",
+          "createdAt": "2026-08-28T15:00:00Z"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t5",
+          "title": "Schedule implementation kickoff",
+          "dueDate": "2026-09-15",
+          "completed": false
+        }
+      ]
+    }
+  ]
+}
